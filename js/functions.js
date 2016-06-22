@@ -46,7 +46,7 @@ var tabsAcc = function () {
 };
 
 $(document).ready(function(){
-
+$('.fancybox').fancybox();
     tabsAcc();
     if ($('.navBurger').length > 0){
         $('.navBurger').on('click', function(e){
